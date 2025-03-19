@@ -1,1 +1,27 @@
 # Prevents unwanted files from being committed 
+# ✅ Ignore Node.js dependencies (if you use Node.js for backend)
+# node_modules/
+# npm-debug.log
+# package-lock.json
+
+# ✅ Ignore Firebase Config (To protect API keys)
+js/firebase-config.js
+
+# ✅ Ignore Logs & Cache Files
+*.log
+.cache/
+
+# ✅ Ignore OS-Specific Files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# ✅ Ignore IDE & Editor-Specific Files (VS Code, JetBrains)
+.vscode/
+.idea/
+
+# ✅ Ignore Environment Variables (if using .env for API keys)
+.env
+
+# ✅ Ignore Generated Files (if applicable)
+dist/
+build/
