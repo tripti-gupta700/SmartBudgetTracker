@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Budget Tracker</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>💰 Smart Budget Tracker</h1>
+    <button onclick="window.location.href='html/add-expense.html'">➕ Add Expense</button>
+
+    <h2>📊 Monthly Spending Summary</h2>
+    <canvas id="spendingChart"></canvas>
+
+
+    <h2>📊 Recent Transactions</h2>
+    <div id="transactionList"></div>
+
+    <h2>🤖 AI Smart Budget Recommendations</h2>
+    <div id="budgetWarnings"></div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+    <script src="scripts/firebase-config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
